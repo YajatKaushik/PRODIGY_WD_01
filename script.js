@@ -1,4 +1,3 @@
-// Scroll animation for section reveal
 const sections = document.querySelectorAll('.section');
 
 const observer = new IntersectionObserver(entries => {
@@ -15,7 +14,7 @@ sections.forEach(section => {
   observer.observe(section);
 });
 
-// Active nav link highlight on scroll
+
 const navLinks = document.querySelectorAll('nav ul li a');
 
 window.addEventListener('scroll', () => {
